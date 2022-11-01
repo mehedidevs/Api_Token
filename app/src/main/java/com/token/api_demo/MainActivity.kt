@@ -4,7 +4,8 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.example.mydemo.databinding.BalerLayoutBinding
+import com.token.api_demo.databinding.BalerLayoutBinding
+
 import com.token.api_demo.model.login.RequestLogin
 import com.token.api_demo.model.submit_kyc.BusinessDetails
 import com.token.api_demo.model.submit_kyc.RequestSubmit
@@ -47,7 +48,8 @@ class MainActivity : AppCompatActivity() {
                     "12345"
                 )
 
-            val requestLogin = RequestLogin("hopanab690@hempyl.com", "123456Asdf!")
+            val requestLogin = RequestLogin("xexihaj573@fgvod.com", "123456aSDF!")
+           // val requestLogin = RequestLogin("hopanab690@hempyl.com", "123456Asdf!")
 
             viewModel.login(requestLogin)
 

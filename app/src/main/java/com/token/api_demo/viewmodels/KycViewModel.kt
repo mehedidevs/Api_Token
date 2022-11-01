@@ -33,9 +33,6 @@ class KycViewModel @Inject constructor(val kycApi: KYCApi) : ViewModel() {
                 val errorObj = JSONObject(response.errorBody()!!.charStream().readText())
                 Log.i("TAG", "Error Kyc: ${errorObj.getString("message")} ")
 
-                /*
-                [size=89 text={"message":"You have already submitted the document, please chec…]
-                 */
             }
 
 
