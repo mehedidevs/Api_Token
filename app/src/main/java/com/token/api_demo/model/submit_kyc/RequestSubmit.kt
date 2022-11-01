@@ -1,6 +1,6 @@
-package com.fama.famapay.data.model.onboard.submit_kyc
+package com.token.api_demo.model.submit_kyc
 
-data class RequestKYCDetail(
+data class RequestSubmit(
     val addressLine1: String,
     val addressLine2: String,
     val businessDetails: BusinessDetails,

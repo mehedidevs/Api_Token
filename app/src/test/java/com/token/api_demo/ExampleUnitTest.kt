@@ -1,4 +1,4 @@
-package com.example.mydemo
+package com.token.api_demo
 
 import org.junit.Test
 

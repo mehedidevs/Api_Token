@@ -1,4 +1,4 @@
-package com.fama.famapay.data.model.onboard.submit_kyc
+package com.token.api_demo.model.submit_kyc
 
 data class BusinessDetails(
     val addressLine2: String,

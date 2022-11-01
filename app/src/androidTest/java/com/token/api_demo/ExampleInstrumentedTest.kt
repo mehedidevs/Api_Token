@@ -1,4 +1,4 @@
-package com.example.mydemo
+package com.token.api_demo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

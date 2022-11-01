@@ -1,4 +1,4 @@
-package com.fama.famapay.data.model.onboard.login
+package com.token.api_demo.model.login
 
 data class ResponseLogin(
     val message: String
